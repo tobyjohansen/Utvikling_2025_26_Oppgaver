@@ -42,9 +42,8 @@ Sidene og faginnholdet som skal være med er følgende:
 
 # Måloppnåelse
 
-Lav:
 
-|Lav|Midells|Høy|
+|Lav|Middels|Høy|
 |:--|:------|--:|
 |Har tatt i bruk semantiske elementer|Har brukt semantiske elementer riktig og konsist på alle sider|I tilegg har riktig nested de semantiske elementene|
 |Har laget en side og skrevet teori rundt hvert fagord|Har i tilegg lagt til bilde/diagram og forklarer hved bruk av dette| I tilegg lagt til et eksempel scenario eller begrunnet hvorfor vi bruker det|
