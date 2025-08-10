@@ -1,6 +1,11 @@
 
 # Oppgave Uke35/36
 
+<br>
+<br>
+
+# Oppgave 1
+
 Dere skal i denne oppgaven lage en fagpresentasjon nettside.
 Hvert fagtema skal være sin egen html side.
 
@@ -32,11 +37,122 @@ Nettsiden skal også bruke følgende Semantiske elementer:
 
 Sidene og faginnholdet som skal være med er følgende:
 - Hjem
+- About me
+
+
+<br>
+<br>
+<br>
+
+# Oppgave 2
+
+I oppgave 2 skal dere lage nettsiden med React og Vite.
+
+
+### Oppskrift:
+1. Lag en ny prosjektmappe for denne oppgaven med et godt navn
+
+2. Kjør følgende skript i terminalen i prosjektmappen:
+    - npm create vite@latest
+
+3. Følg bruksanvisningen og husk å skrive prosjektnavn, huke av for React, og huke av for javascript. NB! bare huk av for javascript IKKE javascript +.
+
+4. Når den er ferdig får du svar i terminalen at du skal skrive følgende i terminalen (gjør dette):
+    - cd "NAVN PÅ DITT PROSJEKT"
+    - npm install
+    - npm run dev
+
+5. Du vil deretter få en http://localhost:5173 link eller lignende. Shift + trykk på linken i terminalen. Eller skriv dette inn i nettleseren.
+
+6. Du skal deretter se en nettside med React logoen som roterer.
+
+4. Lag en ny mappe som du kaller "Components" i src mappen.
+
+5. Opprett en ny fil i Components som du kaller Home.jsx
+
+6. Skriv følgende kode i Home.jsx filen:
+
+
+```javascript
+function Home() {
+  return (
+    <div>
+      <h1>Welcome to the Home Page</h1>
+    </div>
+  );
+}
+
+export default Home;
+```
+<br>
+
+6. Endre App.jsx filen slik at den ser slik ut:
+
+<br>
+
+```javascript
+import './App.css'
+
+import Home from './Components/Home'
+
+function App() {
+
+  return (
+    <>
+      <Home />
+    </>
+  )
+}
+
+export default App
+```
+<br>
+
+7. Videre kan du legge til css ved å linke til filen øverst i komponente og bruke className="" i stedenfor class som i vanlig css. Opprett en ny fil under Components som heter Home.css og endre Home.jsx til under:
+
+<br>
+
+```javascript
+import '/Home.css';
+
+function Home() {
+  return (
+    <div>
+      <h1 className="title">Welcome to the Home Page</h1>
+    </div>
+  );
+}
+
+export default Home;
+```
+
+8. Gjør filen index.css blank. NB! ikke slett filen. Bare fjern all koden i filen for nå. Det samme kan du gjøre for App.css
+
+9. Videre nå så kan du utvide Home.jsx og Home.css for å lage frontsiden. Når du følger deg komfortabel så kan du gå videre til å lage de andre sidene skrevet i oppgaven under. Hver side blir sin egen jsx fil med sin egen .css fil.
+
+10. Når du vill teste de andre komponente så kan du linke til dem i app.jsx og bytte ut <Home /> linjen med de andre komponente en og en og teste hvordan den ser ut. I senere oppgaver så skal vi lære hvordan vi kan bytte sider men for nå så er det slik vi tester dette.
+
+<br>
+
+## React Nettsiden skal ha følgende sider
+- Hjem
 - Grunnlegende Programmerings Prinsipper (Variabler, Datatyper/Operatorer, Kontrollflyt, - - Løkker, Funksjoner, Arrays, Objekter)
-- HTTP
+- HTTP og HTTPS
 - Node
+- Rammeverk
+- React (https://react.dev)
+- Vite (https://vite.dev)
+- React Komponenter (https://react.dev/learn#components)
+- JSX (https://react.dev/learn#writing-markup-with-jsx)
 - About Me
 
+
+<br>
+
+# Ekstra Oppgave
+
+1. Lag et komponent du kaller Header.jsx som inneholder header og navbaren din. Deretter importer og sett den sammen med komponenten i App.jsx slik at du henter 2 komponents samtidig. Du vil se at så lenge <Header /> kommer først vil den være på toppen av siden.
+2. Gjør det samme med Footer
 
 <br>
 
