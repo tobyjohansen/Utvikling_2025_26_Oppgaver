@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: #eef;
+  padding: 20px;
+}
+
+h1 {
+  color: #336;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+}
