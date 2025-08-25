@@ -1,10 +1,12 @@
 
 # Oppgave Uke35/36
 
+I denne oppgaven er det **2** **Alternativer**. Dere skal bare velge **1** alternativ. Alternativ 1 jobber videre på http serveren vi gikk gjennom i klassen, mens alternativ 2 krever at du setter deg inn i React. Vurderingskriteriene til oppgaven er det samme uavhengig hvilket alternativ du velger.
+
 <br>
 <br>
 
-# Oppgave 1
+# Alternativ 1
 
 Dere skal i denne oppgaven lage en fagpresentasjon nettside.
 Hvert fagtema skal være sin egen html side.
@@ -37,16 +39,23 @@ Nettsiden skal også bruke følgende Semantiske elementer:
 
 Sidene og faginnholdet som skal være med er følgende:
 - Hjem
-- About me
+- Grunnlegende Programmerings Prinsipper NB! 1 Side per følgende konsept: (Variabler, Datatyper/Operatorer, Kontrollflyt, Løkker, Funksjoner, Arrays, Objekter, Arrow Funksjoner)
+- HTTP og HTTPS
+- NodeJS
+- [React](https://react.dev/learn)
+- [Vite](https://vite.dev/guide)
+- About Me
+
+NB! Fagsidene skal inneholde **Hva** det er. **Hvordan** det brukes. og **Hvorfor** bruker vi det.
 
 
 <br>
 <br>
 <br>
 
-# Oppgave 2
+# Alternativ 2
 
-I oppgave 2 skal dere lage nettsiden med React og Vite.
+I alternative 2 så gjør dere samme oppgave som over, men dere gjør oppgaven i React og Vite i stedenfor. Under er en liten guide på hvordan React Fungerer.
 
 
 ### Oppskrift:
@@ -133,27 +142,6 @@ export default Home;
 10. Når du vill teste de andre komponente så kan du linke til dem i app.jsx og bytte ut <Home /> linjen med de andre komponente en og en og teste hvordan den ser ut. I senere oppgaver så skal vi lære hvordan vi kan bytte sider men for nå så er det slik vi tester dette.
 
 <br>
-
-## React Nettsiden skal ha følgende sider
-- Hjem
-- Grunnlegende Programmerings Prinsipper (Variabler, Datatyper/Operatorer, Kontrollflyt, - - Løkker, Funksjoner, Arrays, Objekter)
-- HTTP og HTTPS
-- Node
-- Rammeverk
-- React (https://react.dev)
-- Vite (https://vite.dev)
-- React Komponenter (https://react.dev/learn#components)
-- JSX (https://react.dev/learn#writing-markup-with-jsx)
-- About Me
-
-
-<br>
-
-# Ekstra Oppgave
-
-1. Lag et komponent du kaller Header.jsx som inneholder header og navbaren din. Deretter importer og sett den sammen med komponenten i App.jsx slik at du henter 2 komponents samtidig. Du vil se at så lenge <Header /> kommer først vil den være på toppen av siden.
-2. Gjør det samme med Footer
-
 <br>
 
 # Måloppnåelse
@@ -164,5 +152,7 @@ export default Home;
 |Har tatt i bruk semantiske elementer|Har brukt semantiske elementer riktig og konsist på alle sider|I tilegg har riktig nested de semantiske elementene|
 |Har laget en side og skrevet teori rundt hvert fagord|Har i tilegg lagt til bilde/diagram og forklarer hved bruk av dette| I tilegg lagt til et eksempel scenario eller begrunnet hvorfor vi bruker det|
 |Brukt grunnlegende css for å endre farge,font,størelse osv på elementer|Har i tilegg brukt flexboks til å aligne elementer riktig på siden| Har i tilegg brukt grid sammen med flexboks for å gjøre siden mer mobilvennlig|
+|Har linket til en javascript fil som blir sendt til klienten riktig|Har i tilegg skrevet noe javascript kode som kjøres på klienten|Utvid http serveren slik at vis en bruker trykker på en knapp så kjører noe kode på serveren.
+|Alle sidene i kravene er skrevet|Alle sidene er i tilegg navigerbare og har et helhetlig bilde | Alle sidene er intuitive og oversiktlig å navigere. Nettsiden er også brukervennlig |
 
 
