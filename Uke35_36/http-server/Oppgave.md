@@ -152,7 +152,6 @@ export default Home;
 |Har tatt i bruk semantiske elementer|Har brukt semantiske elementer riktig og konsist på alle sider|I tilegg har riktig nested de semantiske elementene|
 |Har laget en side og skrevet teori rundt hvert fagord|Har i tilegg lagt til bilde/diagram og forklarer hved bruk av dette| I tilegg lagt til et eksempel scenario eller begrunnet hvorfor vi bruker det|
 |Brukt grunnlegende css for å endre farge,font,størelse osv på elementer|Har i tilegg brukt flexboks til å aligne elementer riktig på siden| Har i tilegg brukt grid sammen med flexboks for å gjøre siden mer mobilvennlig|
-|Har linket til en javascript fil som blir sendt til klienten riktig|Har i tilegg skrevet noe javascript kode som kjøres på klienten|Utvid http serveren slik at vis en bruker trykker på en knapp så kjører noe kode på serveren.
 |Alle sidene i kravene er skrevet|Alle sidene er i tilegg navigerbare og har et helhetlig bilde | Alle sidene er intuitive og oversiktlig å navigere. Nettsiden er også brukervennlig |
 
 
